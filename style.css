@@ -1,4 +1,10 @@
 body{
-    background: url(/img/education.jpg);
+    background: url(./img/education.jpg);
+}
+
+.main{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: linear-gradient(90deg,#5e8edb,#183666);
 }

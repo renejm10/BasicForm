@@ -13,17 +13,17 @@
         <div class="main">
 
             <header>
-                <h1>Teacher Survey</h1>
-                <p>Please fill out this form with the required information</p>
+                <h1 id="title">Teacher Survey</h1>
+                <p id="description">Please fill out this form with the required information</p>
             </header>
 
             <main>
 
                 <form id="survey-form">
                     <fieldset>
-                        <label id="name-label" for="name">Name: <input id="name" type="text" required/></label>
-                        <label id="email-label" for="email">Email: <input id="email" type="email" required/></label>
-                        <label id="number-label" for="number">Age: <input id="number" type="number" min="5" max="19" pattern="[0-5]"/></label>
+                        <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Type your name" required/></label>
+                        <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Type your email" required/></label>
+                        <label id="number-label" for="number">Age: <input id="number" type="number" min="5" max="19" pattern="[0-5]" placeholder="Enter age"/></label>
                     </fieldset>
                     <fieldset>
                         <lable id="grade-label" for="dropdown">Grade: <select id="dropdown">
