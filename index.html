@@ -19,28 +19,27 @@
 
             <main>
 
-                <form method="post">
+                <form id="survey-form">
+                    <fieldset>
+                        <label id="name-label" for="name">Name: <input id="name" type="text" required/></label>
+                        <label id="email-label" for="email">Email: <input id="email" type="email" required/></label>
+                        <label id="number-label" for="number">Age: <input id="number" type="number" min="5" max="19" pattern="[0-5]"/></label>
+                    </fieldset>
+                    <fieldset>
+                        <lable id="grade-label" for="dropdown">Grade: <select id="dropdown">
+                            <option value="">--Select One Option--</option>
+                            <option value="1">7th Grade</option>
+                            <option value="2">8th Grade</option>
+                            <option value="3">9th Grade</option>
+                            <option value="4">10th Grade</option>
+                            <option value="5">11th Grade</option>
+                            <option value="6">12th Grade</option>
+                        </select></lable>
+                        <label id="sv-label" for="svcampus"><input id="svcampus" name="campus" type="radio" checked/>Sula Valley</label>
+                        <label id="srl-label" for="srlcampus"><input id="srlcampus" name="campus" type="radio"/>Santa Rosa de Lima</label>
+
+                    </fieldset>
                     
-                    <fieldset>
-                        <label for="first-name">
-                            Enter your first name: 
-                            <input type="text" name="first-name" id="first-name" required/>
-                        </label>
-                        <label for="last-name">
-                            Enter your last name: 
-                            <input type="text" name="last-name" id="last-name" required/>
-                        </label>        
-                        <label for="email">
-                            Enter your email: 
-                            <input type="email" id="email" name="email" required/>
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-
-
-
-                    </fieldset>
                 </form>
 
             </main>
